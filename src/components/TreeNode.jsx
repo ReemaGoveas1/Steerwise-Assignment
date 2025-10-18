@@ -62,7 +62,7 @@ const TreeNode = ({ node, level = 0, expanded, onToggle, onSelect, selectedId, i
           <div className="w-4" />
         )}
         
-        <div className="flex items-center gap-2 flex-1 min-w-0">
+        <div className="flex items-center gap-2 min-w-0">
           <div className="min-w-0 flex-1">
             <div className="text-sm text-gray-900 truncate">{node.label}</div>
             {node.email && <div className="text-xs text-gray-500 truncate">{node.email}</div>}
