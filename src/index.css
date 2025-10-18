@@ -12,6 +12,29 @@ code {
     monospace;
 }
 
+.symbol-stroke {
+  stroke: grey;
+  stroke-width: 2;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.funnel {
+  fill: none;
+  stroke: rgb(173, 167, 167);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.check {
+  fill: none;
+  stroke: rgb(179, 175, 175);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 /* @import "tailwindcss"; */
 @tailwind base;
 @tailwind components;
